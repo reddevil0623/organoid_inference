@@ -1,0 +1,18 @@
+numpy
+scipy
+pandas
+scikit-learn
+matplotlib
+seaborn
+Pillow
+tqdm
+numba
+joblib
+
+# Optional:
+#   opencv-python  -- faster minimum-enclosing-circle; falls back to scipy
+#   pyDOE          -- only for sampling='lhs'; the default 'uniform' is NumPy-only
+
+# Also required, installed separately (not on PyPI):
+#   eucalc  -- Euler-characteristic library, exposed via scripts/paths.py:ensure_eucalc()
+#   MCPFM   -- C++ phase-field solver (Tanida et al. 2025; Lee et al. 2026), set in scripts/paths.py
